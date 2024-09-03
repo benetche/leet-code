@@ -1,0 +1,31 @@
+# Ignore object files, compiled binaries, and libraries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore specific compiled C++ programs
+main
+
+# Ignore build directories (e.g., CMake, Make, or IDEs)
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.make
+*.ninja
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Ignore temporary files
